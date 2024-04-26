@@ -1,0 +1,364 @@
+.carousel-inner .carousel-item{
+    height: 100vh;
+}
+
+/* testimonial slider */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* image grid */
+
+.image-grid {
+    margin-top: 20px;
+  }
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+
+
+/* image grid end */
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+/*banner start*/
+
+
+
+.div-about-2 {
+    height: 400px;
+    width: 100%px;
+    background-color:#7a7777;
+    background: url(images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+   
+}
+
+.card-body .socials{
+    font-size: 20px;
+}
+
+
+#banner4 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+#services .card-body-main {
+    height: 60vh;
+}
+
+#card-banner {
+    background-color: #7a7777;
+    padding-top: 10%;
+    border-radius: 0;
+}
+
+#card-content h6 {
+    color: #ccc8c8;
+}
+
+#card-content {
+    height: 70vh;
+    margin: auto;
+    width: 50%;
+}
+
+#card-content h1 {
+    font-weight: 800;
+    color: white;
+    font-size: 40px;
+}
+
+.service-card .card {
+    width: 25%;
+}
+
+.service-card h3 {
+    font-weight: 600;
+}
+
+#about-text h1 {
+    font-weight: 600;
+}
+
+/* #icon-card .card{
+    background-color: #a19d9d;
+} */
+
+.card-body i {
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.card-body h5 {
+    color: white;
+    font-weight: 600;
+}
+
+.card-body p {
+    width: 100%;
+    color: white;
+}
+
+
+.div-box {
+    width: 80%;
+    height: 46vh;
+
+}
+
+#business {
+    background-color: #e7e8e9e0;
+    ;
+}
+
+.business-heading {
+    font-weight: 600;
+}
+
+#business .card-title {
+    font-weight: 600;
+}
+
+#business .card-body i {
+    background: none;
+}
+
+#business .card-body {
+    border: 0;
+}
+
+
+#about-text2 .div-box1 {
+    width: 80%;
+    height: 46vh;
+
+}
+
+#about-text2 .div-box2 {
+    width: 40%;
+    height: 26vh;
+
+}
+
+.service-card {
+    height: 35vh;
+}
+
+.service-card h3 {
+    color: white;
+
+}
+
+
+
+
+
+.navbar-nav {
+    margin-right: 180px;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    margin: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.services .card-body i {
+    font-size: 40px;
+
+
+}
+
+
+.card-body .lead {
+    font-size: 18px;
+}
+
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-img {
+    margin-top: 50px;
+}
+
+/*===responsive===*/
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    #card-banner {
+        height: 50vh;
+        padding-top: 20%;
+
+    }
+    
+
+    #card-content {
+        margin: auto;
+        width: 90%;
+    }
+
+    .service-card .card {
+        width: 25%;
+    }
+
+    .service-card h2 {
+        font-size: 20px;
+
+    }
+
+    #services .card-body-main {
+        height: 40vh;
+    }
+
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .img-area img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    #card-banner {
+        height: auto;
+    }
+
+    #card-content {
+        margin: auto;
+        width: 90%;
+    }
+
+    .service-card .card {
+        width: 50%;
+        height: 30vh;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+    .about-text {
+        padding-top: 50px;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/*portfolio
+
+.carousel-item{
+    height: 60vh;
+}
+*/
+.card-cont {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer-icon i {
+    font-size: 15px;
+    font-style: normal;
+}
